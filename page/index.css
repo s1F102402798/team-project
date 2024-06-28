@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
+
 #container {
     display: flex;
     flex-direction: row;
@@ -6,6 +8,7 @@
 .sidebar {
     width: 30%;
     margin: 10px 0 10px 0;
+    color: ;
 }
 
 .sidebar ul {
@@ -17,17 +20,25 @@
     display: block;
     margin: 0px 0px 5px 0px;
     padding: 5px 5px 5px 5px;
-    
+    background-color: #BED8DF;
+    border-left: solid 2px #ACC5DB;
 }
 
 .sidebar h3 {
-    margin: 0px 0px 5px 0px;
+    margin: 0px 5px 5px 0px;
     padding: 5px 5px 5px 5px;
+    background-color: #ACC5DB;
+    border-left: solid 2px #154060;
 }
 
 .content {
     width: 70%;
     margin: 10px 0 10px 0;
+}
+
+.content h2 {
+    background-color: #ACC5DB;
+    border-left: solid 2px #154060;
 }
 
 #top {
@@ -41,4 +52,25 @@
     background-color: #444444;
     color: #ffffff;
     text-decoration: none;
+}
+
+h1 {
+    font-family: "Hannari";
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-image: url(https://thumb.ac-illust.com/a6/a6f52a9b6c0630f2b0df7a546dce24e9_w.jpeg);
+    height: 65px
+    
+}
+
+.ani {
+    display: flex;
+    flex-direction: row;
+}
+
+.exp {
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+
 }
